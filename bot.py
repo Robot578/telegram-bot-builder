@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 # ===== БЕРЕМ КЛЮЧИ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ =====
-TOKEN = os.environ.get("8659343011:AAF3sk3LVUqbC41bFlhh9ccWJE90R6StvbE")
-DEEPSEEK_KEY = os.environ.get("sk-0abd7a38a00b4b28b34449ec80be378e")
+TOKEN = "8659343011:AAF3sk3LVUqbC41bFlhh9ccWJE90R6StvbE"
+DEEPSEEK_KEY = "sk-0abd7a38a00b4b28b34449ec80be378e"
 # ================================================
 
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
