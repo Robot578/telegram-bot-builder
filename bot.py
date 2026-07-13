@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 # ===== БЕРЕМ КЛЮЧИ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ =====
-TOKEN = os.environ.get("")
+TOKEN = os.environ.get("8659343011:AAGj-dzTlpEg6w5lGMBwt2BQbHsDsbI8wUY")
 DEEPSEEK_KEY = os.environ.get("sk-0f95c492ba3e477ca87b162169b4cba7")
 # ================================================
 
